@@ -1,0 +1,143 @@
+body { 
+    background-color: pink;
+}
+.volledig { 
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 99vw;
+    text-align: center;
+
+}
+.scherm {
+    background-color: white;
+    width: 80vw;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    height: 80vh;
+    border: 1px solid pink;
+    border-radius: 20px;
+}
+.center { 
+text-align: center;
+margin-right: 5px;
+font-size: 40px;}
+
+.opsomming {
+    
+    text-align: center;
+    font-size: 35px;
+    margin-top: 2px;
+}
+#tt {
+    font-size: 38px;
+    font-weight: bold;
+}
+#info {
+    height: 20em;
+    margin-top: 20px;
+    color: pink;
+}
+.made {
+    width: 100vw;
+    height: 10vh;
+}
+#a {
+    margin-left: 40%;
+}
+.foto-container {
+    background-color: white;
+    border: 1px solid pink;
+    border-radius: 50px;
+  display: flex;
+  align-items: center; /* verticaal centreren als je wilt */
+  gap: 20px; /* ruimte tussen foto en tekst */
+}
+.foto {
+    font-size: 40px;
+}
+.img {
+  max-width: 500px; /* pas aan naar gewenste breedte */
+  height: auto;
+  border-radius: 10px;
+}
+
+.info-text p {
+  font-size: 33px;
+  margin: 15px;
+}
+
+#terug {
+    font-size: 40px;
+}
+.direct{
+    
+    margin-left: 38%;
+}
+.grid-container {
+      display: grid;
+      grid-template-columns: repeat(5, 1fr);
+      grid-template-rows: repeat(6, 1fr);
+      height: 100vh;
+      box-sizing: border-box;
+    }
+
+    .item {
+      background-color: #3498db;
+      color: white;
+      font-size: 1.5em;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 8px;
+    }
+    .item1 {
+        background-color: green;
+        display: flex;
+        grid-row: 6;
+        grid-column: 3;
+    }
+     .item2 {
+        background-color: green;
+        display: flex;
+        grid-row: 5;
+        grid-column: 3;
+    }
+     .item3 {
+        background-color: red;
+        display: flex;
+        grid-row: 4;
+        grid-column: 3;
+    }
+     .item4 {
+        background-color: lightcoral;
+        border-top: 3px solid white;
+        border-top-left-radius: 80px;
+         border-top-right-radius: 80px;
+         border-bottom: 2px solid darkred;
+        grid-row-start:3;
+        grid-row-end:4;
+        display: flex;
+        grid-column: 3;
+    }
+     .item5 {
+        background-color: red;
+        border-bottom-left-radius: 50px;
+        border-top-left-radius: 200px;
+        border-right: 4px solid darkred;
+        display: flex;
+        grid-row: 3;
+        grid-column: 2;
+    }
+     .item6 {
+        background-color: red;
+        border-bottom-right-radius: 50px;
+        border-top-right-radius: 200px;
+        display: flex;
+        grid-row: 3;
+        grid-column: 4;
+    }
+    .luv {
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-size: 50px;
+        left: 15%;
+        position: relative;
+    }
